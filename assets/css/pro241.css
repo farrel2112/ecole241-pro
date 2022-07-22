@@ -33,8 +33,8 @@ h6 {
 }
 
 a.filled-button {
-    background-color: #ebae00;
-    color: #202020;
+    background-color: #0d0d0d;
+    color: #fff;
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 700;
@@ -45,8 +45,8 @@ a.filled-button {
 }
 
 a.filled-button:hover {
-    background-color: #202020;
-    color: #ebae00;
+    background-color: #bf1111;
+    color: #fff;
 }
 
 a.border-button {
@@ -673,8 +673,7 @@ ul.slick-dots {
 
 .services {
     margin-top: 140px;
-    /*background-color: #202020;
-	*/
+    /* background-color: #f7f7f7; */
     margin-bottom: 50px;
 }
 
