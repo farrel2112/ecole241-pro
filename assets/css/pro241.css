@@ -306,6 +306,10 @@ header .navbar {
     outline: none;
 }
 
+.navbar-brand img {
+    width: 250px !important;
+}
+
 .navbar .navbar-brand h2 {
     color: #fff;
     text-transform: uppercase;
@@ -339,7 +343,7 @@ header .navbar {
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 0.5px;
-    color: #fff;
+    color: #000;
     transition: all 0.5s;
     margin-top: 5px;
 }
@@ -349,8 +353,8 @@ header .navbar {
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-    color: #fff;
-    border-bottom: 3px solid #0d0d0d;
+    /* color: #fff; */
+    border-bottom: 3px solid #e63735;
 }
 
 .navbar .navbar-toggler-icon {
@@ -493,16 +497,6 @@ ul.slick-dots {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.Modern-Slider .item h6 {
-    margin-bottom: 15px;
-    font-size: 22px;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 1px;
-    color: #a4c639;
-    animation: fadeOutRight 1s both;
 }
 
 .Modern-Slider .item h4 {
@@ -1605,7 +1599,6 @@ footer .contact-form button.filled-button {
 .title {
     padding: 10px 15px;
     margin-bottom: 20px;
-    /* background-color: #ebae00; */
     color: #fff;
     font-weight: bold;
 }
@@ -1635,4 +1628,12 @@ td li {
 
 td ul {
     padding-left: 10px;
+}
+
+#tabs-2 li {
+    list-style-type: square !important;
+}
+
+nav {
+    background-color: #fff;
 }
