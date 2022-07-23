@@ -1646,6 +1646,10 @@ nav {
     height: 256px;
 }
 
+.text-slide {
+    background-color: rgba(250, 250, 250, 0.1) !important;
+}
+
 .text-slide h4,
 .text-slide p {
     color: #000 !important;
