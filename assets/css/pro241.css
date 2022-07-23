@@ -1340,7 +1340,7 @@ footer .contact-form button.filled-button {
 }
 
 .contact-information .contact-item i {
-    color: #ebae00;
+    color: #fff;
     font-size: 48px;
     margin-bottom: 40px;
 }
@@ -1350,17 +1350,17 @@ footer .contact-form button.filled-button {
     font-weight: 700;
     letter-spacing: 0.25px;
     margin-bottom: 15px;
-    color: #ebae00;
+    color: #fff;
 }
 
 .contact-information .contact-item p {
     margin-bottom: 20px;
-    color: #ebae00;
+    color: #fff;
 }
 
 .contact-information .contact-item a {
     font-weight: 600;
-    color: #ebae00;
+    color: #fff;
     font-size: 15px;
 }
 
@@ -1636,4 +1636,15 @@ td ul {
 
 nav {
     background-color: #fff;
+}
+
+#tabs-2,
+#tabs-3,
+#tabs-4 {
+    opacity: 0;
+    transform: translateX(500px);
+    -webkit-transform: translateX(500px);
+    -moz-transform: translateX(500px);
+    -ms-transform: translateX(500px);
+    -o-transform: translateX(500px);
 }
